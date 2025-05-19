@@ -1,0 +1,127 @@
+import org.code.neighborhood.*;
+
+public class NeighborhoodRunner {
+  public static void main(String[] args) {
+    PainterPlus joe = new PainterPlus(0);
+    RowPainter bob = new RowPainter (1);
+    RowPainter gemma = new RowPainter (2);
+    RowPainter nic = new RowPainter (3);
+    RowPainter viola = new RowPainter (4);
+    RowPainter jamie = new RowPainter (5);
+    RowPainter remie = new RowPainter (6);
+    RowPainter josh = new RowPainter (7);
+    RowPainter dom = new RowPainter (8);
+    RowPainter jake = new RowPainter (9);
+
+    
+    joe.moveSpaces(7);
+    joe.paint("yellow");
+    joe.moveSpaces(8);
+    
+    bob.moveSpaces(6);
+    bob.paint("yellow");
+    bob.moveSpaces(2);
+    bob.paint("yellow");
+    bob.moveSpaces(7);
+
+    gemma.moveSpaces(5);
+    gemma.paint("yellow");
+    gemma.moveSpaces(4);
+    gemma.paint("yellow");
+    gemma.moveSpaces(6);
+
+    nic.moveSpaces(3);
+    nic.paint("yellow");
+    nic.move();
+    nic.paint("yellow");
+    nic.moveSpaces(6);
+    nic.paint("yellow");
+    nic.move();
+    nic.paint("yellow");
+    nic.moveSpaces(4);
+
+    viola.moveSpaces(2);
+    viola.paint("yellow");
+    viola.moveSpaces(4);
+    viola.paint("black");
+    viola.moveSpaces(2);
+    viola.paint("black");
+    viola.moveSpaces(4);
+    viola.paint("yellow");
+    viola.moveSpaces(3);
+
+    jamie.moveSpaces(3);
+    jamie.paint("yellow");
+    jamie.moveSpaces(8);
+    jamie.paint("yellow");
+    jamie.moveSpaces(4);
+
+    remie.moveSpaces(4);
+    remie.paint("yellow");
+    remie.moveSpaces(6);
+    remie.paint("yellow");
+    remie.moveSpaces(5);
+
+    josh.moveSpaces(3);
+    josh.paint("yellow");
+    josh.moveSpaces(8);
+    josh.paint("yellow");
+    josh.moveSpaces(4);
+
+    dom.moveSpaces(2);
+    dom.paint("yellow");
+    dom.moveSpaces(4);
+    dom.paint("yellow");
+    dom.move();
+    dom.paint("yellow");
+    dom.moveSpaces(1);
+    dom.paint("yellow");
+    dom.moveSpaces(3);
+    dom.moveSpaces(1);
+    dom.paint("yellow");
+    dom.moveSpaces(3);
+
+    jake.moveSpaces(3);
+    jake.paint("yellow");
+    jake.move();
+    jake.paint("yellow");
+    jake.move();
+    jake.paint("yellow");
+    jake.moveSpaces(4);
+    jake.paint("yellow");
+    jake.move();
+    jake.paint("yellow");
+    jake.move();
+    jake.paint("yellow");
+    jake.moveSpaces(4);
+    
+
+    
+
+    // int[][] board = {
+    //                   {0,0,0,1,1,1,0,0,0,1,1,1,0,0,0,0},
+    //                   {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+    //                   {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+    //                   {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+    //                   {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+    //                   {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+    //                   {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}
+    //                  };
+    // for(int i=0; i<board.length; i++) {
+    //   System.out.println();
+    //   for(int j=0; j<board[i].length; j++) {
+    //     if (board[i][j] == 1) { 
+    //       System.out.print("* ");
+    //       joe.paint("yellow");
+    //     }
+    //     else {
+    //       System.out.print("  ");
+    //   }
+    //     joe.move();
+    // }
+
+    //if else statement for if painter in on 1 paint if on 0 move and check new square, make painter for each row or colum
+    
+    
+  }
+}
